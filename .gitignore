@@ -1,0 +1,59 @@
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Banco de dados
+db.sqlite3
+db.sqlite3-journal
+*.db
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Pacotes e distribuição
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# Arquivos de teste
+.coverage
+htmlcov/
+
+# Configurações locais
+local_settings.py
+
+# Arquivo de configuração do projeto
+.project
+.pydevproject
+
+# Node modules (se usar frontend)
+node_modules/
+npm-debug.log
+
+# OS
+Thumbs.db
+.DS_Store
