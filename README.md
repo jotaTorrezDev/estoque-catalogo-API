@@ -1,4 +1,35 @@
+# Estoque & Catálogo API
 
+API REST em Django para gerenciamento de categorias, produtos e pedidos, com autenticação por token.
+
+## Tecnologias
+
+- Python, Django, Django REST Framework
+- Autenticação por Token
+- SQLite (desenvolvimento) / PostgreSQL (produção)
+
+## Estrutura principal
+
+- `rdf/` — projeto Django principal (settings, urls)
+- `core/` — app com modelos, serializers, views e rotas
+- `requirements.txt` — dependências do projeto
+
+## Como rodar localmente
+
+1. Crie e ative um ambiente virtual:
+
+```powershell
+python -m venv venv
+venv\Scripts\Activate
+```
+
+2. Instale as dependências:
+
+```powershell
+pip install -r requirements.txt
+```
+
+3. Crie um arquivo `.env` na raiz do projeto com:
 4. Aplique as migrations:
 
 ```powershell
